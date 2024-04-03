@@ -15,9 +15,9 @@
   
     var cookieChoices = (function() {
   
-      var cookieName = 'displayCookieConsent';
-      var cookieConsentId = 'cookieChoiceInfo';
-      var dismissLinkId = 'cookieChoiceDismiss';
+      const cookieName = 'displayCookieConsent';
+      const cookieConsentId = 'cookieChoiceInfo';
+      const dismissLinkId = 'cookieChoiceDismiss';
   
        //Questo crea il banner attaccato al fondo della pagina
         function _createHeaderElement(cookieText, dismissText, linkText, linkHref) {
